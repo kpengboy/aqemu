@@ -3466,12 +3466,17 @@ Linux Compressed Loop image, useful only to reuse directly compressed CD-ROM ima
     </message>
     <message>
         <location filename="Emulator_Control_Window.cpp" line="350"/>
-        <source>Are you sure to shutdown VM &quot;%1&quot;?</source>
+        <source>Are you sure you want to shutdown VM &quot;%1&quot;?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="Emulator_Control_Window.cpp" line="350"/>
+        <source>Are you sure you want to poweroff VM &quot;%1&quot;?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="Emulator_Control_Window.cpp" line="362"/>
-        <source>Are you sure to reboot VM &quot;%1&quot;?</source>
+        <source>Are you sure you want to reset VM &quot;%1&quot;?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3598,8 +3603,14 @@ Do you want to show this message again?</source>
         <translation type="obsolete">VM &quot;%1&quot; herunterfahren?</translation>
     </message>
     <message>
-        <source>Reboot VM &quot;%1&quot;?</source>
-        <translation type="obsolete">VМ &quot;%1&quot; neu starten?</translation>
+        <location filename="Main_Window.cpp" line="4862"/>
+        <source>Poweroff VM &quot;%1&quot;?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="Main_Window.cpp" line="4901"/>
+        <source>Reset VM &quot;%1&quot;?</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="Emulator_Control_Window.cpp" line="87"/>
@@ -6292,7 +6303,7 @@ To set this value, check &quot;Remove limitation on maximum amount of memory&quo
     <message>
         <location filename="Main_Window.ui" line="2529"/>
         <source>Native</source>
-        <oldsource>Nativ</oldsource>
+        <oldsource>Native</oldsource>
         <translation type="unfinished">Нативный</translation>
     </message>
     <message>
